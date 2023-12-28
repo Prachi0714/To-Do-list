@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #034a66;
+    
+    
+    
+    
+    
+}
+.main-do{
+    width: 85vh;
+    height: 90vh;
+   box-shadow: 0px 0px 10px #00000022;
+    border-radius: 25px;
+   background-color: #fff;
+    
+    padding: 30px;
+   
+   
+}
+.input-do::placeholder{
+    font-size: 20px;
+    color: #034a66;
+    padding-top: 20px;
+    font-weight: 600;
+}
+.main-do h3{
+font-weight: 600;
+float: left;
+color: #000000;
+padding: 20px;
+font-size: 40px;
+border-radius: 25px 25px 0px 0px;
+
+display: inline;
+font-family: Arial, Helvetica, sans-serif;
+}
+.do-date{
+    margin-top: 33px;
+}
+.btn-sort{
+    display: inline;
+    float: right;
+    padding: 13px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color:#f34040;
+    color:#000;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: none;
+
+}
+.input-do{
+    color: #034a66;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 15px #00000027;
+    padding: 20px;
+    border: none;
+    border-radius: 30px 0px 0px 30px;
+    width: 73%;
+    display: inline;
+    float: left;
+    font-size: 20px;  
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+.li-do{
+    color: #000000;
+    font-weight: 500;
+    background-color: #cccccc83;
+    box-shadow: 0px 5px 15px #0000000c;
+  
+    padding: 13px 20px;
+    border: none;
+    border-radius: 30px;
+    width: 93%;
+    display: inline;
+    float: left;
+    font-size: 20px;  
+    margin: 10px 0px;
+
+}
+.input-do:focus{
+    outline: none;
+}
+.btn-do{
+    padding: 20px 35px;
+    background-color: #034a66;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    display: inline;
+    float: right;
+    transform: translateX(-30px);
+    margin-top: 20px;
+   
+}
+.btn-cross{
+    border-radius: 10px;
+    background-color: #034a66;
+    color: #fff;
+    padding: 10px;
+    float: right;
+    margin: 0px 5px;
+    border: none;
+}
+.btn{
+    background-color: rgb(158, 0, 0);
+}
+.btn1{
+    background-color: green;
+}
